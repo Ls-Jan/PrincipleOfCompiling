@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\XJQ_ScanResultPreview\XJQ_ScanResultPreivew.cpp" />
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_Base.cpp" />
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_GB18030.cpp" />
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_UTF16BE.cpp" />
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_UTF8.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_LexemeAnalyse.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Anno.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Base.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Identity.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Keyword.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Number.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_String.cpp" />
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Token.cpp" />
+    <ClCompile Include="..\XJ_StringTreeNode\XJ_StringTreeNode.cpp" />
+    <ClCompile Include="Main_Main.cpp" />
+    <ClCompile Include="XJ_Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XJ_Main.h" />
+    <QtMoc Include="..\XJQ_ScanResultPreview\XJQ_ScanResultPreview.h" />
+    <ClInclude Include="..\XJQ_ScanResultPreview\XJ_ScanToken.h" />
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_Base.h" />
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_GB18030.h" />
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_UTF16BE.h" />
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_UTF8.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\Global.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_LexemeAnalyse.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Anno.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Base.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Identity.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Keyword.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Number.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_String.h" />
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Token.h" />
+    <ClInclude Include="..\XJ_StringTreeNode\XJ_StringTreeNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="..\XJQ_ScanResultPreview\XJQ_ScanResultPreview.qrc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA701080-D7CF-426E-8179-1E69B0FFF82D}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">10.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+    <ProjectName>Main</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="QtSettings">
+    <QtInstall>5.15.2_msvc2019</QtInstall>
+    <QtModules>core</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="QtSettings">
+    <QtInstall>5.15.2_msvc2019</QtInstall>
+    <QtModules>core</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

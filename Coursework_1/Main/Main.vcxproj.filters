@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="External Project Files">
+      <UniqueIdentifier>{70562323-4348-4140-90b6-4f4474caa33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Project Files\XJ_CharTest">
+      <UniqueIdentifier>{fe9dec20-5193-42c3-9ec3-b2278dce19ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Project Files\XJ_LexemeAnalyse">
+      <UniqueIdentifier>{ee4e71df-bd14-49fd-a35c-d9f392fa5c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Project Files\XJ_StringTreeNode">
+      <UniqueIdentifier>{4b4b6f5a-8d42-4d77-a98e-21f4b66054cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Project Files\XJQ_ScanResultPreview">
+      <UniqueIdentifier>{75dfdf03-d2fd-4b8d-a371-8a08e5558e61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_Base.cpp">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_GB18030.cpp">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_UTF8.cpp">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_UTF16BE.cpp">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_LexemeAnalyse.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Anno.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Base.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Identity.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Keyword.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_Number.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Machine_String.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_LexemeAnalyse\XJ_Token.cpp">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_StringTreeNode\XJ_StringTreeNode.cpp">
+      <Filter>External Project Files\XJ_StringTreeNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJQ_ScanResultPreview\XJQ_ScanResultPreivew.cpp">
+      <Filter>External Project Files\XJQ_ScanResultPreview</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_Base.h">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_GB18030.h">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_UTF8.h">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_UTF16BE.h">
+      <Filter>External Project Files\XJ_CharTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\Global.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_LexemeAnalyse.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Anno.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Base.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Identity.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Keyword.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_Number.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Machine_String.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_LexemeAnalyse\XJ_Token.h">
+      <Filter>External Project Files\XJ_LexemeAnalyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_StringTreeNode\XJ_StringTreeNode.h">
+      <Filter>External Project Files\XJ_StringTreeNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJQ_ScanResultPreview\XJ_ScanToken.h">
+      <Filter>External Project Files\XJQ_ScanResultPreview</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\XJQ_ScanResultPreview\XJQ_ScanResultPreview.h">
+      <Filter>External Project Files\XJQ_ScanResultPreview</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="..\XJQ_ScanResultPreview\XJQ_ScanResultPreview.qrc">
+      <Filter>External Project Files\XJQ_ScanResultPreview</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

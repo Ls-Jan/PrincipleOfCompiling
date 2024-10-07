@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/XJQ_ScanResultPreview">
+        <file>LoadingGIF.gif</file>
+    </qresource>
+</RCC>

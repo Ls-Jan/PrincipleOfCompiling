@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="外部项目文件">
+      <UniqueIdentifier>{512bb1cb-1afa-473d-bae4-e1e97ee94012}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XJ_Machine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Machine_Anno.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Machine_Base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Machine_Identity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Machine_Keyword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Machine_Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Machine_String.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_LexemeAnalyse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_XJ_LexemeAnalyse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_StringTreeNode\XJ_StringTreeNode.cpp">
+      <Filter>外部项目文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XJ_Token.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_Base.cpp">
+      <Filter>外部项目文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_GB18030.cpp">
+      <Filter>外部项目文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_UTF8.cpp">
+      <Filter>外部项目文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XJ_CharTest\XJ_CharTest_UTF16BE.cpp">
+      <Filter>外部项目文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XJ_Machine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Machine_Anno.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Machine_Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Machine_Identity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Machine_Keyword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Machine_Number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Machine_String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_Token.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XJ_LexemeAnalyse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_StringTreeNode\XJ_StringTreeNode.h">
+      <Filter>外部项目文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_Base.h">
+      <Filter>外部项目文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_GB18030.h">
+      <Filter>外部项目文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_UTF8.h">
+      <Filter>外部项目文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XJ_CharTest\XJ_CharTest_UTF16BE.h">
+      <Filter>外部项目文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
