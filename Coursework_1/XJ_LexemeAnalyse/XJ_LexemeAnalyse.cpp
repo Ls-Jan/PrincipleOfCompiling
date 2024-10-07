@@ -108,7 +108,8 @@ void XJ_LexemeAnaylse::Opt_Scan(const char str[], int count,bool isFinalStr) {//
 					}
 				}
 				if (flag == false) {//没有一个符合的，说明此时这个token是非法的，需要对这个特殊的token单独分析。
-					//这里就懒得分析了，直接挂valid=false
+					//TODO：需单独处理无效token
+					//这里就懒得分析了，直接挂token->valid=false
 					auto stat = fail.front();
 					token->valid = stat->Get_IsValid();
 				}
